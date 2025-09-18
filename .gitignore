@@ -6,5 +6,8 @@
 !*/.todo
 !**/.todo
 
+# Track GlobalTasks.todo at repo root
+!/GlobalTasks.todo
+
 # Keep this .gitignore file
 !.gitignore
