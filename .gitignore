@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# But track .todo files in subdirectories
+!*/.todo
+!**/.todo
+
+# Keep this .gitignore file
+!.gitignore
