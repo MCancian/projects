@@ -1,12 +1,12 @@
 # Ignore everything by default
 *
 
-# But track .todo files in subdirectories
-!/.todo
-!*/.todo
-!**/.todo
+# Allow Satellites.todo in Satellites_Adnan without exposing others
+!/Satellites_Adnan/
+Satellites_Adnan/*
+!/Satellites_Adnan/Satellites.todo
 
-# Track GlobalTasks.todo at repo root
+# Track GlobalTasks.todo at repo root (redundant with pattern above but explicit)
 !/GlobalTasks.todo
 
 # Keep this .gitignore file
