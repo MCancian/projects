@@ -2,6 +2,7 @@
 *
 
 # But track .todo files in subdirectories
+!/.todo
 !*/.todo
 !**/.todo
 
